@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.header {
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.logo--facebook {
+    width: 140px;
+    margin-left: -5px;
+}
+
+.top-icons {
+    display: flex;
+    gap:10px;
+    font-size: 15px;
+    color: #8A8C8E;
+}
+
+.top-icons .fa-magnifying-glass {
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #CBCFD2;
+}
+
+.top-icons .fa-facebook-messenger {
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #CBCFD2;
+}
+
+.bottom {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #DADCDD;
+    color: #404040;
+}
+
+.bottom .fa-people-group {
+    border-radius: 50%;
+    padding: 6px;
+    margin-top: -7px;
+    background-color: #CBCFD2;
+}
+
+.post {
+    width: 100%;
+}
+
+.user {
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+.user .fa-user {
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -55px;
+    padding: 6px;
+    color: white;
+    background-color: #CBCFD2;
+}
+
+.user-text01 {
+    position: absolute;
+    margin-top: -53px;
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-text02 {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 35px;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-text03 {
+    position: absolute;
+    font-size: 12px;
+    margin-left: -5px;
+    margin-top: -16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.publication {
+    width: 100%;
+    height: 260px;
+    margin-top: 28px;
+    background-color: #DFE3E6;
+}
+
+.publication .fa-user {
+    height: 180px;
+    display: flex;
+    justify-content:center;
+    margin-top: 60px;
+    padding-left: 116px;
+    padding-top: 20px;
+    font-size:100px;
+}
+
+.hotbar {
+    width: 100%;
+}
+
+.hotbar--cima {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid#DADCDD;
+    padding-bottom: 8px;
+    background-color: #E9E9E9;
+}
+
+.hotbar--cima .fa-thumbs-up {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 11px;
+    background-color: #0765E2;
+    color: white;
+}
+
+.hotbar--cima .fa-heart {
+    margin-top: 6px;
+    margin-left: 25px;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 11px;
+    color: white;
+    background-color: #D67D88;
+}
+
+.hotbar--cima-text01 {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 43px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotbar--cima-text02 {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 205px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotbar--baixo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #DADCDD;
+    color: gray;
+    background-color: #E9E9E9;
+}
+
+.hotbar--baixo-text01 {
+    color: #0765E2;
+}
+
+.Comments {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9E9E9;
+    padding-bottom: 58px;
+}
+
+.content {
+    display: flex; 
+    gap: 10px;
+}
+
+.content p {
+    padding: 3px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #D2DAE1;
+}
+
+
+.content .fa-user {
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #CBCFD2;
+}
+
+.content-text01 {
+    display: flex;
+    gap: 10px;
+    margin-left: 55px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.content-text02 {
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.coments-02 {
+    display: flex;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.coments-02 .fa-user{
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #CBCFD2;
+}
+
+.coments-02 p {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 3px;
+    margin-top: 10px;
+    background-color: #D3DBE4;
+}
